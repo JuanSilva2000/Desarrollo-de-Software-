@@ -1,0 +1,15 @@
+El Test proporcionado indica que la clase SimpleAgedCache almacena productos que tienen una clave, valor y precio.  
+
+-El método put añade un producto, para su implementación:
+Usaremos arrays para cada clave,valor y precio de tal modo que para el inidice i=0 la clave[0] tiene un valor de valor[0] y un precio precio[0], por lo tanto para el método put simplemente almacenamos
+en los arrays los atributos pasados como parámetros de dicho método, usamos un iterador i que se inicializa en 0 y cada vez que se añade algo el iterados aumenta en uno para que el siguiente producto sea 
+almacenado en otra posicion
+
+-Para el método isEmpty:
+Simplemente se verifica si la dimension de los arrays son ceros, si son ceros quiere decir que no hay ningún producto caso contrario si hay producto
+
+-Para el método size:
+Simplemente retornamos el i, porque ese aumenta cada vez que se añade un producto nuevo entonces este indica la cantidad de productos
+
+-Para el método get:
+Recorremos todo el array de keys hasta que coincida con el del parametro, y cuando coicida devolemos el valor de ese indice que coincide con el del key
