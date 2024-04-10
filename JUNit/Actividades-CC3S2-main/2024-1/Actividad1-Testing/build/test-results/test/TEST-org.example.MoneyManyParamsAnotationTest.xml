@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.MoneyManyParamsAnotationTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-03-25T21:43:59" hostname="juan-Lenovo-C365" time="0.911">
+  <properties/>
+  <testcase name="[1] 10, USD" classname="org.example.MoneyManyParamsAnotationTest" time="0.817"/>
+  <testcase name="[2] 15, EUR" classname="org.example.MoneyManyParamsAnotationTest" time="0.028"/>
+  <testcase name="[3] 50, CHF" classname="org.example.MoneyManyParamsAnotationTest" time="0.013"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
