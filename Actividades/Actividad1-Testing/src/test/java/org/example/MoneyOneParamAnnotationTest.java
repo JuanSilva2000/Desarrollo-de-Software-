@@ -7,7 +7,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 class MoneyOneParamAnnotationTest {
     @ParameterizedTest //Para inferir que este metodo de prueba va a recibir parametros de entrada
-    @ValueSource(ints = {10,15,50}) //Forma mas sencilla de proporcionar un unico de parametro de prueba, proveedor de datos de pruebas
+    @ValueSource(ints = {10,15,20}) //Forma mas sencilla de proporcionar un unico de parametro de prueba, proveedor de datos de pruebas
     void constructorShouldSetAmountAndCurrency(int amount) {
         Money money = new Money(amount,"USD");
         assertThat(money.getAmount()).isEqualTo(amount);

@@ -14,11 +14,6 @@ class ClientTest {
     }
 
     @Test
-    void afterCreationShouldHaveNoAddress(){
-
-    }
-
-    @Test
     void shouldAllowToAddress(){
         client.addAddress(address);
     }
