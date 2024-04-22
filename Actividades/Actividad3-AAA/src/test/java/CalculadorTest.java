@@ -1,13 +1,20 @@
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class CalculadorTest {
 
+    private Calcualdor calcualdor;
+
+    @BeforeEach
+    public void setUp(){
+        calculador = new Calculador();
+    }
+
     @Test
     public void testSum_PositiveNumbers_ShouldReturnCorrectSum() {
         // Arrange
-        Calculador calculador = new Calculador();
         int numeroA = 10;
         int numeroB = 5;
 
@@ -22,7 +29,6 @@ public class CalculadorTest {
     @Test
     public void testSum_NegativeNumbers_ShouldReturnCorrectSum() {
         // Arrange
-        Calculador calculador = new Calculador();
         int numeroA = -5;
         int numeroB = -6;
 
@@ -36,7 +42,6 @@ public class CalculadorTest {
     @Test
     public void testResta_PositiveNumbers_ShouldReturnCorrectRest(){
         //Arrange
-        Calculador calculador = new Calculador();
         int numberA = 6;
         int numberB = 9;
 
@@ -50,7 +55,6 @@ public class CalculadorTest {
     @Test
     public void testResta_NegativeNumbers_ShouldReturnCorrectRest(){
         //Arrange
-        Calculador calculador = new Calculador();
         int numberA = -15;
         int numberB = -5;
 
@@ -64,7 +68,6 @@ public class CalculadorTest {
     @Test
     public void testMultiplicacion_PositiveNumbers_ShouldReturnCorrecctProduct(){
         //Arrange
-        Calculador calculador = new Calculador();
         int numberA = 5;
         int numberB = 7;
 
@@ -78,7 +81,6 @@ public class CalculadorTest {
     @Test
     public void testMultiplicacion_NegativeNumbers_ShouldReturnCorrectProduct(){
         //Arrange
-        Calculador calculador = new Calculador();
         int numberA = -3;
         int numberB = -5;
 
@@ -92,7 +94,6 @@ public class CalculadorTest {
     @Test
     public void testDivision_PositiveNumbers_ShouldReturnCorrectDivision(){
         //Arrange
-        Calculador calculador = new Calculador();
         int numberA = 15;
         int numberB = 5;
 
@@ -106,7 +107,6 @@ public class CalculadorTest {
     @Test
     public void testDivision_NegativeNumbers_ShouldReturnCorrectDivision(){
         //Arrange
-        Calculador calculador = new Calculador();
         int numberA = -15;
         int numberB = -5;
 
@@ -120,7 +120,6 @@ public class CalculadorTest {
     @Test
     public void testDivision_Zero_ShouldThrowException() {
         // Arrange
-        Calculador calculador = new Calculador();
         int numeroA = 10;
         int numeroB = 0;
 
