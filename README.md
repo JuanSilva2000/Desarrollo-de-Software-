@@ -4,7 +4,7 @@
 1) Actividad 1: Completada ✅
 2) Actividad 2: Completada ✅ (*)
 3) Actividad 3: Completada ✅
-4) Actividad 4: Incompleta ❌
+4) Actividad 4: Incompleta ✅ (****)
 5) Actividad 5: Completada ✅ (**)
 6) Actividad 6: Completada ✅ (***) 
 7) Actividad 7: Incompleta ❌
@@ -19,5 +19,6 @@
 -Retorna cero si ambos objetos se consideran iguales.  
 -Retorna un número positivo si el objeto actual (this) se considera mayor que el objeto especificado como argumento.  
 
+(****) Revisar el belly.feature
    
  
