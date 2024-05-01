@@ -4,6 +4,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/Actividad1-Testing" />
     <file type="web" url="file://$PROJECT_DIR$/Actividad6-RGR+TDR" />
+    <file type="web" url="file://$PROJECT_DIR$/Actividad7-AnalisisEstatico" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
