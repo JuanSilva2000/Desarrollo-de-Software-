@@ -13,7 +13,7 @@ Feature: BellyFeature
 
   Scenario: eaten many cukes and not growl
     Given I have eaten 25 cukes
-    When I wait 1 hour
+    When I wait 0 hour
     Then My belly should not growl
 
   Scenario: eaten many cukes and not growl
