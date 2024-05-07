@@ -19,7 +19,7 @@ pepinos > 10, tiempo < 2 , estómago no gruñe
  
 En ambos casos evaluamos cuando el timepo es 1 hora, y pepinos comidos 25 y 11.  
   
-  ![](img/NoGruñe_pocoTiempo.png)  
+  ![](img/NoGruñe_pocoTimepo.png)  
     
       
 ## Tercer caso:  
