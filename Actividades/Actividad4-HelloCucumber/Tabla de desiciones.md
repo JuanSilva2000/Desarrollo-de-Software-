@@ -1,4 +1,4 @@
-##TABLA DE DESICIÓN 
+# TABLA DE DESICIÓN 
 Esta tabla está en el unvirtual proporcionada por el alumno de apoyo
 Con esto se toma en cuenta si los testing pasan o no
 
