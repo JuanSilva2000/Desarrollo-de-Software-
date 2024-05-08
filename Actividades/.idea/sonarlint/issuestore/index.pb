@@ -55,3 +55,11 @@ g
 7Actividad5-TDD/TDD-1/src/main/java/com/wordz/Score.java,d/b/db13328f97780ec44f3f4d45f4bf9977044f4829
 h
 8Actividad5-TDD/TDD-1/src/main/java/com/wordz/Letter.java,6/5/6536c4ac9119d0ff2b475aefd6d903df8bf6595c
+e
+5Actividad6-RGR+TDR/src/main/java/lang/Comparable.java,0/4/04bd009655dc7842ef2a69601fcdb553693c218a
+f
+6Actividad6-RGR+TDR/src/main/java/org/example/Main.java,9/7/97e8174950028d7a7e381c669fb518fa2b948517
+f
+6Actividad6-RGR+TDR/src/test/java/FootballTeamTest.java,2/f/2f6c78c287c74deb5c956a9b9f91a369a7b9018c
+b
+2Actividad6-RGR+TDR/src/main/java/FootballTeam.java,e/e/ee72c380c932b7218bb242c512d9685c89a50b1c

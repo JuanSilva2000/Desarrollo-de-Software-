@@ -3,6 +3,11 @@
   <component name="SonarLintProjectSettings">
     <option name="bindingEnabled" value="true" />
     <option name="bindingSuggestionsEnabled" value="false" />
+    <option name="fileExclusions">
+      <list>
+        <option value="FILE:Actividad6-RGR+TDR/src/main/java/FootballTeam.java" />
+      </list>
+    </option>
     <option name="projectKey" value="CodigoEstatico" />
     <option name="serverId" value="CodigoEstatico" />
   </component>
