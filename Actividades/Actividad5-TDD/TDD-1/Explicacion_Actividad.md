@@ -1,4 +1,4 @@
-# Actividad TDD-1  
+# TDD-1  
 La actividad consiste en crear un programa que verifique si la letra de entrada coincide con la letra a adivinar, para eso usaremos TDD.  
   
 ## 1) Creacion de la clase WordTest    
@@ -71,6 +71,6 @@ Finalmente se verificia si pasan los test
     
     
       
-      
+      git config --global user.name "bolajiayodeji"
 
-
+git config --global user.email mailtobolaji@gmail.com
