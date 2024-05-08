@@ -52,11 +52,11 @@ Entonces procedemos a crear la enumeración Letter que tendrá el INCORRECT, PAR
 
 Aqui si corremos los test vemos que fallan, pero esto no es para alarmarse pues solo se quiere ver si las pruebas están en funcionamiento, parte del trabajo de TDD consiste en eso, en este caso falta añadir código por eso los tests fallan.  
   
-![](img/TestFallo)  
+![](img/TestFallo.png)  
      
   
 ## 10) Agregando código a la clase Word  
-
+Especificamente al método guess
 ![](img/09.png)  
 
 ## 11) Creacion de la clase Score:
