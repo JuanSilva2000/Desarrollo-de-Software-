@@ -56,8 +56,9 @@ Aqui si corremos los test vemos que fallan, pero esto no es para alarmarse pues 
      
   
 ## 10) Agregando código a la clase Word  
-Especificamente al método guess
-![](img/09.png)  
+Especificamente al método guess  
+  
+  ![](img/09.png)  
 
 ## 11) Creacion de la clase Score:
 
