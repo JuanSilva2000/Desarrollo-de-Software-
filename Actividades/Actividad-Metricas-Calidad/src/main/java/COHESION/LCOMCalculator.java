@@ -2,12 +2,20 @@ package COHESION;
 import java.util.*;
 
 public class LCOMCalculator {
-    private static class ClassInfo {
+    public static class ClassInfo {
         List<String> methods = new ArrayList<>();
         Map<String, Set<String>> methodAttributes = new HashMap<>();
         Set<String> attributes = new HashSet<>();
 
         public void addMethod(String methodName, Set<String> attrs) {
+            if(methodName.isEmpty()){
+                throw new IllegalArgumentException("methodName can't be empty");
+            }
+
+            if(attrs.isEmpty()){
+                throw new IllegalArgumentException("attrs can't be empty");
+            }
+
             methods.add(methodName);
             methodAttributes.put(methodName, attrs);
             attributes.addAll(attrs);

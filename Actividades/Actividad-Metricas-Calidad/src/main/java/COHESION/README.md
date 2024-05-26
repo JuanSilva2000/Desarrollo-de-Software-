@@ -18,3 +18,6 @@ Esto evidentemente es no deseable en un caso real, pues un LCOM alto implica una
 Separamos la lógica para el cálculo del LCOM en un método aparte (`getLCOM`) como se muestra en la imágen:  
 
 ![](img/getLCOM.png)  
+Además implementamos excepcion en el método `addMethod`para asegurar que los parámetros no sean vacíos:  
+![](img/Excepciones.png)  
+### Ejercicio 3:  Implementar unidades de pruebas para LCOMCalculator  

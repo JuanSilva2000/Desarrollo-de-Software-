@@ -1,7 +1,7 @@
 
-•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ã±ÁÇJ$8ffcc6e4-8394-4a97-8c66-6b501090fbc0
-e
-java:S3824"HReplace this "Map.containsKey()" with a call to "Map.computeIfAbsent()".(¢²šã8óæØôù1
-W
-java:S1118":Add a private constructor to hide the implicit public one.(íè®8ßçØôù1
-G	java:S106!"+Replace this use of System.out by a logger.(Îìæë8ÙèØôù1
+•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ã±ÁÇJ$6d394c50-7ff3-45a6-a1ce-e86021c31205
+‹
+java:S3824"HReplace this "Map.containsKey()" with a call to "Map.computeIfAbsent()".(¢²šã8óæØôù1J$2fd0ef8f-3bb4-494e-a8fc-2c988fa1e243
+}
+java:S1118":Add a private constructor to hide the implicit public one.(íè®8ßçØôù1J$dc4e9203-49ad-4d81-9e7e-9a45c1f440f4
+m	java:S106!"+Replace this use of System.out by a logger.(Îìæë8ÙèØôù1J$a13aa1fb-712c-4c30-acce-fbf944b49572

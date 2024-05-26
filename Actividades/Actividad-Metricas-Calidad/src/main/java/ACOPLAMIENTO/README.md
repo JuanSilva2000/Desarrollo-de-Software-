@@ -1,6 +1,7 @@
 ### Ejercicio: Análiza el Acoplamiento y realiza el cálculo del factor de acoplamiento (CF)  
   
-### 1) CLASE USUARIO MODULO:
+### 1) CLASE USUARIO MODULO:  
+![](img/UsuarioModulo.png)
 #### 1.1) Hallando el aclopamiento eferente (Ce):  
 -> En la creación de una lista se usa la el módulo `Usuario`  
 -> Se usa el modulo `GrupoContactoModulo` para usar el método agregarUsuarioAGrupo  
@@ -13,6 +14,7 @@ Por lo tanto Ce = 2
 Por lo tanto Ca = 1  
   
 ### 2) CLASE GRUPO CONTACTO MODULO  
+![](img/GruposContacto.png)
 #### 2.1) Hallando el acoplamiento eferente (Ce):  
 -> Se utiliza la módulo/clase `Usuario`  
   
@@ -24,7 +26,8 @@ Por lo tanto Ce = 1
   
 Por lo tanto Ca = 2  
   
-### 3) CLASE CONTACTO OPERACIONES MODULO  
+### 3) CLASE CONTACTO OPERACIONES MODULO
+![](img/ContactoOperacionesModulo.png)
 #### 3.1) Hallando el aclopamiento eferente (Ce):  
 -> En el método enviarMensaje utiliza un módulo externo `Usuario` como argumento  
   
@@ -35,7 +38,8 @@ Por lo tanto Ce = 1
   
 Por lo tanto Ca = 1  
   
-### 4) CLASE USUARIO:  
+### 4) CLASE USUARIO:
+![](img/Usuario.png)
 #### 3.1) Hallando el aclopamiento eferente (Ce):  
 Esta clase no utiliza módulos externos  
   
@@ -49,7 +53,8 @@ Por lo tanto Ce = 0
   
 Por lo tanto Ca = 4  
   
-### 5) CLASE SISTEMA CONTACTO  
+### 5) CLASE SISTEMA CONTACTO
+![](img/SistmeaContacto.png)
 #### 5.1) Hallando el acomplamiento eferente (Ce):  
 -> Se utiliza una instancia de la clase externa `UsuarioModulo`   
 -> Se utiliza una instancia de la clase externa `Usuario`  
@@ -63,7 +68,7 @@ Ninguna clase/modulo externo utiliza este modulo
   
 Por lo tanto Ca = 0  
   
-### Hallando el Factor de Acoplamiento(CF)  
+# Hallando el Factor de Acoplamiento(CF)  
 El `CF = e / [a*(n-1)]`, para hallar el e veamos el siguiente gráfico:   
 
 ![](img/FactorAcoplamiento.png)  
