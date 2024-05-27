@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.ActivityTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2024-05-27T05:28:28" hostname="juan-Lenovo-C365" time="0.273">
+  <properties/>
+  <testcase name="simpleCase()" classname="org.example.ActivityTest" time="0.242"/>
+  <testcase name="manyStrings()" classname="org.example.ActivityTest" time="0.004"/>
+  <testcase name="openAndCloseTagsThatAreLongerThan1Char()" classname="org.example.ActivityTest" time="0.004"/>
+  <testcase name="substringsBetweenMustReturnExpectedValue()" classname="org.example.ActivityTest" time="0.013"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
