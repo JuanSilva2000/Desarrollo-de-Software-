@@ -21,3 +21,7 @@ Separamos la lógica para el cálculo del LCOM en un método aparte (`getLCOM`) 
 Además implementamos excepcion en el método `addMethod`para asegurar que los parámetros no sean vacíos:  
 ![](img/Excepciones.png)  
 ### Ejercicio 3:  Implementar unidades de pruebas para LCOMCalculator  
+Implementamos test para comprobar si la funcion getLCOM está devolviendo el valor correcto, para este caso dado los métodos el LCOM esperado debe ser 1  
+![](img/testLCOM.png)  
+  
+

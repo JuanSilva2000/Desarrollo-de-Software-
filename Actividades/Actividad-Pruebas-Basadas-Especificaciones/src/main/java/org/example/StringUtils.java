@@ -3,7 +3,7 @@ package org.example;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Activity {
+public class StringUtils {
     public static String[] substringsBetween(final String str, final String open, final String close) {
         final String[] EMPTY_STRING_ARRAY = new String[0];
 
