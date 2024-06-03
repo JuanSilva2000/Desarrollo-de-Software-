@@ -2,13 +2,15 @@
 
 ### Paso 1: Crear una interfaz NumerosAleatorios que defina un método para obtener números aleatorios dentro de un rango específico.  
 Creamos la interzas llamada `INumerosAleatorios`, la leta "I" al principio hace referencia a
-interfaz, el método recibe como parámetro el valor máximo del dado. (que comunmente es de 6)
+interfaz, el método recibe como parámetro el valor máximo del dado. (que comunmente es de 6)  
+
 ![](img/Interfaz-paso1.png)  
   
 ### Paso 2: Modificar la clase LanzamientoDados para que utilice la interfaz NumerosAleatorios, inyectando la dependencia a través del constructor.  
 En la linea 7 se inyecta la dependecia pedida mediante un parametro que se pasará al constructor, el método `lanzar()` 
 usa un método de dicha dependencia (`obtenerNumeroAleatorio()`) inyectada.  
-La clase tiene un atrinuto `NUMERO_LADOS` donde se puede definir el número máximo que se puede obtener del dado (6 lados implica que el número máximo es 6).
+La clase tiene un atrinuto `NUMERO_LADOS` donde se puede definir el número máximo que se puede obtener del dado (6 lados implica que el número máximo es 6).  
+
 ![](img/paso2.1.png)  
   
 ### Paso 3: Desarrollar un stub de NumerosAleatorios para usar en pruebas unitarias, permitiendo controlar los resultados de los lanzamientos.  
@@ -18,6 +20,7 @@ Como se ve en la imágen en la linea 14 estamos establecinedo que el resultado d
 ### Paso 4: Escribir pruebas unitarias para LanzamientoDados utilizando el stub para asegurar que la lógica del lanzamiento funciona como se espera bajo condiciones controladas.  
 Usamos el stub creado manualemte y el patrón AAA para la prueba, como se ve en el assert se espera que el resultado siempre sea 4  que es el valor predefinidio en el stub  
 ![](img/Paso4-Test.png)    
+  
   
 Resultado de la prueba
 ![](img/paso4-testResult.png)  
