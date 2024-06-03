@@ -34,4 +34,31 @@ En esta clase se implementa el método `obtenerNumeroAleatorio` que se usa en la
   
 ### Paso 6: Integrar y probar la clase LanzamientoDados en una aplicación de producción, inyectando la implementación real de NumerosAleatorios  
 La inyeccion de la implementación real se da en la linea 6 y luego se emula 10 lanzamientos de dados y se muestra la salida en consola.
-![](img/paso6-main.png)
+![](img/paso6-main.png)  
+  
+## EJERCICIO 2 Sistema de notificaciones por email  
+
+### Paso 1: Definir una interfaz MailServer que abstraiga el envío de correos electrónicos.  
+![](img/MailServer-paso1.png)  
+  
+### Paso 2:  Crear una clase UserNotifications que dependa de la interfaz MailServer para enviar correos.  
+![](img/paso2-UserNotifications.png)
+
+### Paso 3: Implementar un mock de MailServer que registre las llamadas a su método sendEmail y capture los valores de los parámetros enviados  
+En la linea 12 se crea el mock que es inyectado en el constructor de `UserNotifications` y en la linea 16 se predefine el comportamiento del método sendEmail, donde dado unos parametros debe retornar una salida (linea 21).  
+
+![](img/Paso3-mock.png)  
+  
+### Paso 4: Escribir pruebas unitarias para UserNotifications utilizando el mock para verificar que los correos se envíen correctamente.  
+Testeamos el método de `sendNotification()` que internamente llama al `sendEmail()` (linea 25) y luego hacemos la verificacion 
+preguntandole al mock si hizo el llamado del método `sendEmail()` (linea 32)  
+
+![](img/paso4-testNotification.png)  
+  
+Resultado del test:
+![](img/E2-Test-Result.png)
+
+  
+## Paso 5: Implementar una clase RealMailServer que use SMTP para enviar correos en un entorno de producción.  
+![](img/paso5-incompleta.png)  
+

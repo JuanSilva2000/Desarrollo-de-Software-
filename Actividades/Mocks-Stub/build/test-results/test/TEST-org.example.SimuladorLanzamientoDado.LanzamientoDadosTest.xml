@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.example.SimuladorLanzamientoDado.LanzamientoDadosTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-06-03T01:03:15" hostname="juan-Lenovo-C365" time="0.222">
-  <properties/>
-  <testcase name="TestLanzamientoDados()" classname="org.example.SimuladorLanzamientoDado.LanzamientoDadosTest" time="0.222"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

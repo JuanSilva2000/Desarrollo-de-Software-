@@ -19,6 +19,11 @@
 -Retorna cero si ambos objetos se consideran iguales.  
 -Retorna un número positivo si el objeto actual (this) se considera mayor que el objeto especificado como argumento.  
 
-(****) Revisar el belly.feature
+(****) Revisar el belly.feature  
+  
+Para la actividad de mock-stubs:  
+https://javarush.com/es/groups/posts/es.1226.cmo-enviar-un-correo-electrnico-desde-una-aplicacin-java-con-ejemplo  
+  
+ 
    
  
