@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.CountWordTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-06-05T03:25:08" hostname="juan-Lenovo-C365" time="0.054">
+  <properties/>
+  <testcase name="noWordsAtAll()" classname="org.example.CountWordTest" time="0.028"/>
+  <testcase name="wordsThatEndInR()" classname="org.example.CountWordTest" time="0.006"/>
+  <testcase name="twoWordsEndingWithS()" classname="org.example.CountWordTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

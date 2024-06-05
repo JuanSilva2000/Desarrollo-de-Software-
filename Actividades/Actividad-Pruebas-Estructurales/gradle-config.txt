@@ -65,3 +65,5 @@ check.dependsOn jacocoTestCoverageVerification
 
 // ./gradlew pitest
 // ./gradlew jacocoTestReport
+// Reporte en build/reports/jacoco/test/html/index.html
+
