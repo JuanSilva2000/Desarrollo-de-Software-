@@ -95,7 +95,36 @@ un tiempo ya que minikube necesita descargar todos los binarios de Kubernetes. C
 ```
    minikube start
 ```
-![](img/minikube-start.png)
+![](img/minikube-start.png)  
+
+Empecemos. Sigue estos pasos cuidadosamente:
+1. Intenta acceder al clúster usando kubectl. Primero, debes asegurarte de tener seleccionado el
+   contexto correcto para kubectl. Si anteriormente instalastes Docker Desktop y ahora minikube, puedes
+   usar el siguiente comando:  
+``kubectl config get-contexts``  
+
+![](img/get-contexts.png)  
+
+El asterisco al lado del contexto llamado minikube te dice que este es el contexto actual. Así, al usar
+kubectl, se trabajará con el nuevo cluster creado por minikube.
+2. Ahora veamos cuántos nodos tiene tu cluster con este comando:  
+``kubectl get nodes``  
+
+![](img/get-nodes.png)  
+
+Deberías obtener algo similar a esto. Ten en cuenta que la versión mostrada podría diferir en tu caso:  
+
+• Aquí tenemos un clúster de un solo nodo. El papel del nodo es el de plano de control, lo que
+significa que es un nodo maestro. Un clúster de Kubernetes típico consta de unos pocos nodos
+maestros y muchos nodos trabajadores.  
+
+La versión de Kubernetes con la que estamos trabajando aquí es la v1.30.0.  
+
+3. Ahora, intenta ejecutar algo en este clúster. Usaremos Nginx, un servidor web popular para esto.
+   Utiliza el archivo .yaml, que acompaña a la actividad que vas a utilizar para esta prueba:
+   Abre una nueva ventana de Terminal y crea un pod que ejecute Nginx con el siguiente comando:  
+
+   `` kubectl apply -f nginx.yaml ``  
 
 
 
